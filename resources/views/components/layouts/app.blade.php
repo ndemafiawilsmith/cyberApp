@@ -52,11 +52,11 @@
 				<div class="row">
 					<div class="col-20 align-self-center">
 						<div class="site-logo">
-							<a href="index.html"><img src="assets/img/logo-top.png" alt=""></a>          				
+							<a href="{{route('home')}}"><img src="assets/img/logo-top.png" alt=""></a>          				
 						</div>
 					</div><!--- END Col -->
 					
-					<div class="col-60 d-flex justify-content-center">
+					{{-- <div class="col-60 d-flex justify-content-center">
 						<nav id="main-menu">
 							<ul>
 								<li class="menu-item-has-children"><a href="#">Home</a>
@@ -97,13 +97,13 @@
 								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
-					</div><!--- END Col -->
+					</div><!--- END Col --> --}}
 					
 					<div class="col-20 d-none d-xl-block text-end align-self-center">
-						<a href="contact.html" class="btn_one">Get started now</a>
+						<a href="{{route('scan')}}" class="btn_one">Scan Now</a>
 					</div><!--- END Col -->
 					
-					<ul class="mobile_menu">						
+					{{-- <ul class="mobile_menu">						
 						<li><a href="#">Home</a>
 							<ul class="sub-menu">										
 								<li><a href="index.html">Home 01</a></li>
@@ -141,31 +141,13 @@
 							</ul>
 						</li>						
 						<li><a href="contact.html">Contact</a></li>
-					</ul>			
+					</ul>			 --}}
 				</div><!--- END ROW -->
 			</div><!--- END CONTAINER -->
 		</div> 	  
 		<!-- END NAVBAR -->		
         {{$slot}}
-
-		<!-- START HOME -->
-		<section class="home_bg hb_height" style="background-image: url(assets/img/bg/home-bg.jpg);  background-size:cover; background-position: center center;">
-			<div class="container">
-				<div class="row">
-				  <div class="col-lg-7 col-sm-12 col-xs-12">
-					<div class="hero-text ht_top">
-						<h1>We're a best cyber security problem solution team</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipiscing elit tempor ut labore</p>
-					</div>
-					<div class="home_btns">
-						<a href="about.html" class="btn_one">Discover More</a>		
-						<a class="video-play" href="https://www.youtube.com/watch?v=RXv_uIN6e-Y"><i class="ti-image"></i> <span class="video-title">Video Tour</span></a>
-					</div>						
-				  </div><!--- END COL -->						  
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</section>
-		<!-- END  HOME -->		
+	
         	
 
 		{{-- <!-- START COUNTER -->

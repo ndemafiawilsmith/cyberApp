@@ -494,6 +494,18 @@ top: 40px;
 	padding-top: 250px;
 	margin-bottom: 20px;
 }
+
+.hero-text h3 {
+	color: #fff;
+	font-size: 44px;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 74px;
+	padding-top: 250px;
+	margin-bottom: 20px;
+}
+
+
 .ht_top h1 {padding-top:150px;}
 .ht2 h1 {
 	font-size: 54px;
