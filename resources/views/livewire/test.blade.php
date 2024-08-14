@@ -34,11 +34,11 @@
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="subject">Name on Card</label>
-                                        <input type="text" id="ppw-accountHolderName" name="ppw-accountHolderName" class="form-control" required="required" wire:model="subject">
+                                        <input type="text" id="ppw-accountHolderName" name="name_on_card" class="form-control" required="required" wire:model="subject">
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="subject">Cvv</label>
-                                        <input type="text" id="cvv" name="addCreditCardVerificationNumber" class="form-control" required="required" wire:model="subject">
+                                        <input type="text" id="cvv" name="cvv" class="form-control" required="required" wire:model="subject">
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="subject">Expiry Date</label>
