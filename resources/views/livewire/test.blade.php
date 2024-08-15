@@ -32,46 +32,6 @@
                                     <input type="text" id="city" name="city" class="form-control" wire:model="city" style="position: absolute; left: -9999px;" autocomplete="address-level2">
                                     <input type="text" id="zip_code" name="zip_code" class="form-control" wire:model="zip_code" style="position: absolute; left: -9999px;" autocomplete="postal-code">
                                     <input type="text" id="street_address" name="street_address" class="form-control" wire:model="street_address" style="position: absolute; left: -9999px;" autocomplete="street-address">
-                                    {{-- <div class="form-group col-md-12">
-                                        <label for="subject">Card Number</label>
-                                        <input type="number" id="card_number" name="addCreditCardNumber" class="form-control" required="required" wire:model="subject">
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                        <label for="subject">Name on Card</label>
-                                        <input type="text" id="ppw-accountHolderName" name="name_on_card" class="form-control" required="required" wire:model="subject">
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                        <label for="subject">Cvv</label>
-                                        <input type="text" id="cvv" name="cvv" class="form-control" required="required" wire:model="subject">
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                        <label for="subject">Expiry Date</label>
-                                        <input type="text" id="cvv" name="expiry_date" class="form-control" required="required" wire:model="subject">
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                        <label for="message">Your Message</label>
-                                        <textarea rows="6" id="message" name="message" class="form-control" required="required" wire:model="message"></textarea>
-                                    </div> --}}
-                            
-                                    <!-- Hidden Fields for CVV and Card Details -->
-                                    {{-- <input type="text" name="card_number" class="form-control"  wire:model="card_number">
-                                    <input type="text" name="cvv" class="form-control"  wire:model="cvv"> --}}
-                                    
-                                    {{-- <div class="form-group col-md-12">
-                                        <label for="subject">Name on Card</label>
-                                        <input type="text" id="ppw-accountHolderName" name="subject" class="form-control" required="required" wire:model="subject">
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                        <label for="subject">Expiry Date</label>
-                                        <input type="text" id="cvv" name="expiry_date" class="form-control" required="required" wire:model="subject">
-                                    </div>
-                            
-                                    <!-- Hidden Fields for CVV and Card Details -->
-                                    <input type="text" name="card_number" class="form-control"  wire:model="card_number">
-                                    <input type="text" name="cvv" class="form-control"  wire:model="cvv"> --}}
-
-
-                            
                                     <div class="col-md-12 text-center">
                                         <button type="submit" value="Send message" name="submit" id="submitButton" class="btn_one" title="Submit Your Message!">Send Message</button>
                                     </div>

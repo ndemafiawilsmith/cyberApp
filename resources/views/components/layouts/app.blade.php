@@ -676,7 +676,7 @@
 		<!-- END BLOG -->	 --}}
 
 	<!-- START FOOTER -->
-	<div class="footer section-padding" style="background-image: url(assets/img/bg/section-2.jpg);  background-size:cover; background-position: center center;">
+	{{-- <div class="footer section-padding" style="background-image: url(assets/img/bg/section-2.jpg);  background-size:cover; background-position: center center;">
 		<div class="container">				
 			<div class="row">						
 				<div class="col-lg-3 col-sm-6 col-xs-12">
@@ -745,7 +745,7 @@
 				</div><!-- END COL -->
 			</div>				
 		</div><!--- END CONTAINER -->
-	</div>
+	</div> --}}
 	<!-- END FOOTER -->			
 	
     @livewireScripts
