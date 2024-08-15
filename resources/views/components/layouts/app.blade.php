@@ -7,10 +7,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Pathaan - One Page Parallax Template">
+		<meta name="description" content="Scan Website. Community Id: FE/24/5836778312">
 		<meta name="keywords" content="agency, business, corporate, creative, html5, modern, multipurpose, One Page, parallax, startup">		
 		<!-- SITE TITLE -->
-		<title>Cybal - Cyber Security HTML Template</title>			
+		<title>Cybal-Tool By Ndemafia Wilmsith</title>			
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
 		<!-- Google Font -->
