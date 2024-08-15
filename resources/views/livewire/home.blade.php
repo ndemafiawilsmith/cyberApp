@@ -8,7 +8,7 @@
 					<div class="hero-text ht_top">
 						<h3>Welcome to SecureScan: Your First Line of Defense Against Hidden Web Vulnerabilities</h3>
 						<div style="background-color:rgb(95, 7, 237);">
-                            <h2 style="text-align:center;"><b>Community ID: FE/24/5836778312</b></h2>
+                            <h2 style="text-align:center; color:rgb(204, 255, 0);"><b>Community ID: FE/24/5836778312</b></h2>
                         </div>
 						<p>In today’s digital landscape, online security is more crucial than ever. With countless websites interacting with sensitive user data, ensuring the security of these interactions is not just a best practice</p>
 					</div>
